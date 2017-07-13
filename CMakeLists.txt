@@ -15,6 +15,7 @@ add_executable(app ${SOURCE})
 target_link_libraries(app wiringPi
                           serializer
                           iothub_client
+                          iothub_client_diag_wrapper
                           iothub_client_mqtt_transport
                           umqtt
                           aziotsharedutil
